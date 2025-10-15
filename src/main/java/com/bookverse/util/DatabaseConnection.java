@@ -12,9 +12,10 @@ public class DatabaseConnection {
 
     // Thông tin kết nối database
     private static final String URL =
-        "";
-    private static final String USERNAME = "";
-    private static final String PASSWORD = ""; 
+        "jdbc:mysql://bookstore-bookstore8.b.aivencloud.com:14800/defaultdb"
+        + "?sslMode=REQUIRED&allowPublicKeyRetrieval=true&serverTimezone=UTC";
+    private static final String USERNAME = "avnadmin";
+    private static final String PASSWORD = "AVNS_NcWE-ey8WfJ0D_AjHfZ"; 
 
     // Connection instance
     private static Connection connection = null;
